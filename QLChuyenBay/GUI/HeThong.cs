@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAO;
+
 
 namespace QuảnLíChuyếnBay
 {
@@ -35,6 +37,14 @@ namespace QuảnLíChuyếnBay
         private void label22_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void tabNhanVien_Click(object sender, EventArgs e)
+        {
+            List<NhanVien> list = new List<NhanVien>();
+
+
+            dataNhanVien.DataSource = EmployeeServices.LoadEmployees();
         }
     }
 }

@@ -1,17 +1,47 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\QLChuyenBay\\GUI\\GUI.csproj": {}
+    "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\QLChuyenBay\\GUI\\GUI.csproj": {
+    "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj",
+        "projectName": "DAO",
+        "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\QLChuyenBay\\GUI\\GUI.csproj",
+        "projectUniqueName": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\QLChuyenBay\\GUI\\GUI.csproj",
+        "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj",
         "packagesPath": "C:\\Users\\bthta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\QLChuyenBay\\GUI\\obj\\",
+        "outputPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,7 +62,14 @@
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,6 +81,12 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
