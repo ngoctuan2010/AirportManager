@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HeThong));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.tabNhanVien = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.pageTickets = new System.Windows.Forms.TabPage();
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.dataTickets = new System.Windows.Forms.DataGridView();
             this.button31 = new System.Windows.Forms.Button();
@@ -60,7 +60,7 @@
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.pagePlane = new System.Windows.Forms.TabPage();
             this.dataMaybay = new System.Windows.Forms.DataGridView();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.button16 = new System.Windows.Forms.Button();
@@ -73,25 +73,25 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pageEmployess = new System.Windows.Forms.TabPage();
             this.dataNhanVien = new System.Windows.Forms.DataGridView();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.btnClearEmployee = new System.Windows.Forms.Button();
+            this.btnUpdateEmployee = new System.Windows.Forms.Button();
+            this.btnAddEmployee = new System.Windows.Forms.Button();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtSDT = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.txtRole = new System.Windows.Forms.TextBox();
+            this.txtCCCD = new System.Windows.Forms.TextBox();
+            this.txtNameNhanVien = new System.Windows.Forms.TextBox();
+            this.txtIDNhanVien = new System.Windows.Forms.TextBox();
+            this.rbFemale = new System.Windows.Forms.RadioButton();
+            this.rbMale = new System.Windows.Forms.RadioButton();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -99,7 +99,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pageCustomers = new System.Windows.Forms.TabPage();
             this.dataKhachHang = new System.Windows.Forms.DataGridView();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.button15 = new System.Windows.Forms.Button();
@@ -123,7 +123,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.pageFlight = new System.Windows.Forms.TabPage();
             this.dataChuyenBay = new System.Windows.Forms.DataGridView();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
@@ -144,7 +144,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pageReport = new System.Windows.Forms.TabPage();
             this.button29 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button30 = new System.Windows.Forms.Button();
@@ -159,31 +159,33 @@
             this.button25 = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnReport = new System.Windows.Forms.Button();
+            this.btnCloseSystem = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEmployess = new System.Windows.Forms.Button();
+            this.btnPlane = new System.Windows.Forms.Button();
+            this.btnCustomers = new System.Windows.Forms.Button();
+            this.btnTicket = new System.Windows.Forms.Button();
+            this.btnFlight = new System.Windows.Forms.Button();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabNhanVien.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.tabControl.SuspendLayout();
+            this.pageTickets.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).BeginInit();
-            this.tabPage2.SuspendLayout();
+            this.pagePlane.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataMaybay)).BeginInit();
-            this.tabPage3.SuspendLayout();
+            this.pageEmployess.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataNhanVien)).BeginInit();
-            this.tabPage4.SuspendLayout();
+            this.pageCustomers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataKhachHang)).BeginInit();
-            this.tabPage5.SuspendLayout();
+            this.pageFlight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataChuyenBay)).BeginInit();
-            this.tabPage6.SuspendLayout();
+            this.pageReport.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -194,65 +196,65 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(258, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(926, 219);
+            this.pictureBox1.Size = new System.Drawing.Size(0, 219);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // tabNhanVien
+            // tabControl
             // 
-            this.tabNhanVien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabNhanVien.Controls.Add(this.tabPage1);
-            this.tabNhanVien.Controls.Add(this.tabPage2);
-            this.tabNhanVien.Controls.Add(this.tabPage3);
-            this.tabNhanVien.Controls.Add(this.tabPage4);
-            this.tabNhanVien.Controls.Add(this.tabPage5);
-            this.tabNhanVien.Controls.Add(this.tabPage6);
-            this.tabNhanVien.Location = new System.Drawing.Point(258, 230);
-            this.tabNhanVien.Name = "tabNhanVien";
-            this.tabNhanVien.SelectedIndex = 0;
-            this.tabNhanVien.Size = new System.Drawing.Size(929, 467);
-            this.tabNhanVien.TabIndex = 1;
-            this.tabNhanVien.Click += new System.EventHandler(this.tabNhanVien_Click);
+            this.tabControl.Controls.Add(this.pageTickets);
+            this.tabControl.Controls.Add(this.pagePlane);
+            this.tabControl.Controls.Add(this.pageEmployess);
+            this.tabControl.Controls.Add(this.pageCustomers);
+            this.tabControl.Controls.Add(this.pageFlight);
+            this.tabControl.Controls.Add(this.pageReport);
+            this.tabControl.Location = new System.Drawing.Point(258, 230);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(929, 467);
+            this.tabControl.TabIndex = 1;
+            this.tabControl.Click += new System.EventHandler(this.tabControll_Click);
             // 
-            // tabPage1
+            // pageTickets
             // 
-            this.tabPage1.Controls.Add(this.textBox34);
-            this.tabPage1.Controls.Add(this.dataTickets);
-            this.tabPage1.Controls.Add(this.button31);
-            this.tabPage1.Controls.Add(this.button32);
-            this.tabPage1.Controls.Add(this.button33);
-            this.tabPage1.Controls.Add(this.button34);
-            this.tabPage1.Controls.Add(this.textBox33);
-            this.tabPage1.Controls.Add(this.textBox32);
-            this.tabPage1.Controls.Add(this.textBox31);
-            this.tabPage1.Controls.Add(this.textBox30);
-            this.tabPage1.Controls.Add(this.textBox29);
-            this.tabPage1.Controls.Add(this.label41);
-            this.tabPage1.Controls.Add(this.label40);
-            this.tabPage1.Controls.Add(this.label39);
-            this.tabPage1.Controls.Add(this.label38);
-            this.tabPage1.Controls.Add(this.label37);
-            this.tabPage1.Controls.Add(this.radioButton6);
-            this.tabPage1.Controls.Add(this.radioButton5);
-            this.tabPage1.Controls.Add(this.textBox28);
-            this.tabPage1.Controls.Add(this.textBox27);
-            this.tabPage1.Controls.Add(this.textBox26);
-            this.tabPage1.Controls.Add(this.textBox25);
-            this.tabPage1.Controls.Add(this.label36);
-            this.tabPage1.Controls.Add(this.label35);
-            this.tabPage1.Controls.Add(this.label34);
-            this.tabPage1.Controls.Add(this.label33);
-            this.tabPage1.Controls.Add(this.label28);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(921, 434);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Quản lí vé";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.pageTickets.Controls.Add(this.textBox34);
+            this.pageTickets.Controls.Add(this.dataTickets);
+            this.pageTickets.Controls.Add(this.button31);
+            this.pageTickets.Controls.Add(this.button32);
+            this.pageTickets.Controls.Add(this.button33);
+            this.pageTickets.Controls.Add(this.button34);
+            this.pageTickets.Controls.Add(this.textBox33);
+            this.pageTickets.Controls.Add(this.textBox32);
+            this.pageTickets.Controls.Add(this.textBox31);
+            this.pageTickets.Controls.Add(this.textBox30);
+            this.pageTickets.Controls.Add(this.textBox29);
+            this.pageTickets.Controls.Add(this.label41);
+            this.pageTickets.Controls.Add(this.label40);
+            this.pageTickets.Controls.Add(this.label39);
+            this.pageTickets.Controls.Add(this.label38);
+            this.pageTickets.Controls.Add(this.label37);
+            this.pageTickets.Controls.Add(this.radioButton6);
+            this.pageTickets.Controls.Add(this.radioButton5);
+            this.pageTickets.Controls.Add(this.textBox28);
+            this.pageTickets.Controls.Add(this.textBox27);
+            this.pageTickets.Controls.Add(this.textBox26);
+            this.pageTickets.Controls.Add(this.textBox25);
+            this.pageTickets.Controls.Add(this.label36);
+            this.pageTickets.Controls.Add(this.label35);
+            this.pageTickets.Controls.Add(this.label34);
+            this.pageTickets.Controls.Add(this.label33);
+            this.pageTickets.Controls.Add(this.label28);
+            this.pageTickets.Location = new System.Drawing.Point(4, 29);
+            this.pageTickets.Name = "pageTickets";
+            this.pageTickets.Padding = new System.Windows.Forms.Padding(3);
+            this.pageTickets.Size = new System.Drawing.Size(921, 434);
+            this.pageTickets.TabIndex = 0;
+            this.pageTickets.Text = "Quản lí vé";
+            this.pageTickets.UseVisualStyleBackColor = true;
             // 
             // textBox34
             // 
@@ -484,27 +486,27 @@
             this.label28.TabIndex = 0;
             this.label28.Text = "Tên khách hàng:";
             // 
-            // tabPage2
+            // pagePlane
             // 
-            this.tabPage2.Controls.Add(this.dataMaybay);
-            this.tabPage2.Controls.Add(this.textBox18);
-            this.tabPage2.Controls.Add(this.button16);
-            this.tabPage2.Controls.Add(this.button17);
-            this.tabPage2.Controls.Add(this.button18);
-            this.tabPage2.Controls.Add(this.button19);
-            this.tabPage2.Controls.Add(this.textBox17);
-            this.tabPage2.Controls.Add(this.textBox16);
-            this.tabPage2.Controls.Add(this.textBox15);
-            this.tabPage2.Controls.Add(this.label20);
-            this.tabPage2.Controls.Add(this.label19);
-            this.tabPage2.Controls.Add(this.label18);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(921, 434);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Quản lí máy bay";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.pagePlane.Controls.Add(this.dataMaybay);
+            this.pagePlane.Controls.Add(this.textBox18);
+            this.pagePlane.Controls.Add(this.button16);
+            this.pagePlane.Controls.Add(this.button17);
+            this.pagePlane.Controls.Add(this.button18);
+            this.pagePlane.Controls.Add(this.button19);
+            this.pagePlane.Controls.Add(this.textBox17);
+            this.pagePlane.Controls.Add(this.textBox16);
+            this.pagePlane.Controls.Add(this.textBox15);
+            this.pagePlane.Controls.Add(this.label20);
+            this.pagePlane.Controls.Add(this.label19);
+            this.pagePlane.Controls.Add(this.label18);
+            this.pagePlane.Location = new System.Drawing.Point(4, 29);
+            this.pagePlane.Name = "pagePlane";
+            this.pagePlane.Padding = new System.Windows.Forms.Padding(3);
+            this.pagePlane.Size = new System.Drawing.Size(921, 434);
+            this.pagePlane.TabIndex = 1;
+            this.pagePlane.Text = "Quản lí máy bay";
+            this.pagePlane.UseVisualStyleBackColor = true;
             // 
             // dataMaybay
             // 
@@ -609,41 +611,41 @@
             this.label18.TabIndex = 0;
             this.label18.Text = "Mã máy bay:";
             // 
-            // tabPage3
+            // pageEmployess
             // 
-            this.tabPage3.Controls.Add(this.dataNhanVien);
-            this.tabPage3.Controls.Add(this.textBox8);
-            this.tabPage3.Controls.Add(this.label9);
-            this.tabPage3.Controls.Add(this.textBox7);
-            this.tabPage3.Controls.Add(this.button11);
-            this.tabPage3.Controls.Add(this.button10);
-            this.tabPage3.Controls.Add(this.button9);
-            this.tabPage3.Controls.Add(this.button8);
-            this.tabPage3.Controls.Add(this.textBox6);
-            this.tabPage3.Controls.Add(this.textBox5);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.textBox4);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.textBox2);
-            this.tabPage3.Controls.Add(this.textBox1);
-            this.tabPage3.Controls.Add(this.radioButton2);
-            this.tabPage3.Controls.Add(this.radioButton1);
-            this.tabPage3.Controls.Add(this.dateTimePicker1);
-            this.tabPage3.Controls.Add(this.label6);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Controls.Add(this.label2);
-            this.tabPage3.Controls.Add(this.label1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(921, 434);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Quản lí nhân viên";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            this.pageEmployess.Controls.Add(this.dataNhanVien);
+            this.pageEmployess.Controls.Add(this.txtAddress);
+            this.pageEmployess.Controls.Add(this.label9);
+            this.pageEmployess.Controls.Add(this.textBox7);
+            this.pageEmployess.Controls.Add(this.button11);
+            this.pageEmployess.Controls.Add(this.btnClearEmployee);
+            this.pageEmployess.Controls.Add(this.btnUpdateEmployee);
+            this.pageEmployess.Controls.Add(this.btnAddEmployee);
+            this.pageEmployess.Controls.Add(this.txtEmail);
+            this.pageEmployess.Controls.Add(this.txtSDT);
+            this.pageEmployess.Controls.Add(this.label8);
+            this.pageEmployess.Controls.Add(this.label7);
+            this.pageEmployess.Controls.Add(this.txtRole);
+            this.pageEmployess.Controls.Add(this.txtCCCD);
+            this.pageEmployess.Controls.Add(this.txtNameNhanVien);
+            this.pageEmployess.Controls.Add(this.txtIDNhanVien);
+            this.pageEmployess.Controls.Add(this.rbFemale);
+            this.pageEmployess.Controls.Add(this.rbMale);
+            this.pageEmployess.Controls.Add(this.dateTimePicker1);
+            this.pageEmployess.Controls.Add(this.label6);
+            this.pageEmployess.Controls.Add(this.label5);
+            this.pageEmployess.Controls.Add(this.label4);
+            this.pageEmployess.Controls.Add(this.label3);
+            this.pageEmployess.Controls.Add(this.label2);
+            this.pageEmployess.Controls.Add(this.label1);
+            this.pageEmployess.Location = new System.Drawing.Point(4, 29);
+            this.pageEmployess.Name = "pageEmployess";
+            this.pageEmployess.Padding = new System.Windows.Forms.Padding(3);
+            this.pageEmployess.Size = new System.Drawing.Size(921, 434);
+            this.pageEmployess.TabIndex = 2;
+            this.pageEmployess.Text = "Quản lí nhân viên";
+            this.pageEmployess.UseVisualStyleBackColor = true;
+            this.pageEmployess.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // dataNhanVien
             // 
@@ -655,13 +657,13 @@
             this.dataNhanVien.Size = new System.Drawing.Size(909, 200);
             this.dataNhanVien.TabIndex = 24;
             // 
-            // textBox8
+            // txtAddress
             // 
-            this.textBox8.Location = new System.Drawing.Point(580, 115);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(346, 24);
-            this.textBox8.TabIndex = 23;
+            this.txtAddress.Location = new System.Drawing.Point(580, 115);
+            this.txtAddress.Multiline = true;
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(346, 24);
+            this.txtAddress.TabIndex = 23;
             // 
             // label9
             // 
@@ -689,46 +691,49 @@
             this.button11.Text = "Tra cứu";
             this.button11.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnClearEmployee
             // 
-            this.button10.Location = new System.Drawing.Point(435, 185);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(122, 29);
-            this.button10.TabIndex = 19;
-            this.button10.Text = "Xóa";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnClearEmployee.Location = new System.Drawing.Point(435, 185);
+            this.btnClearEmployee.Name = "btnClearEmployee";
+            this.btnClearEmployee.Size = new System.Drawing.Size(122, 29);
+            this.btnClearEmployee.TabIndex = 19;
+            this.btnClearEmployee.Text = "Xóa";
+            this.btnClearEmployee.UseVisualStyleBackColor = true;
+            this.btnClearEmployee.Click += new System.EventHandler(this.btnClearEmployee_Click);
             // 
-            // button9
+            // btnUpdateEmployee
             // 
-            this.button9.Location = new System.Drawing.Point(296, 184);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(123, 29);
-            this.button9.TabIndex = 18;
-            this.button9.Text = "Sửa đổi";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnUpdateEmployee.Location = new System.Drawing.Point(296, 184);
+            this.btnUpdateEmployee.Name = "btnUpdateEmployee";
+            this.btnUpdateEmployee.Size = new System.Drawing.Size(123, 29);
+            this.btnUpdateEmployee.TabIndex = 18;
+            this.btnUpdateEmployee.Text = "Sửa đổi";
+            this.btnUpdateEmployee.UseVisualStyleBackColor = true;
+            this.btnUpdateEmployee.Click += new System.EventHandler(this.btnUpdateEmployee_Click);
             // 
-            // button8
+            // btnAddEmployee
             // 
-            this.button8.Location = new System.Drawing.Point(158, 184);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(122, 29);
-            this.button8.TabIndex = 17;
-            this.button8.Text = "Thêm";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnAddEmployee.Location = new System.Drawing.Point(158, 184);
+            this.btnAddEmployee.Name = "btnAddEmployee";
+            this.btnAddEmployee.Size = new System.Drawing.Size(122, 29);
+            this.btnAddEmployee.TabIndex = 17;
+            this.btnAddEmployee.Text = "Thêm";
+            this.btnAddEmployee.UseVisualStyleBackColor = true;
+            this.btnAddEmployee.Click += new System.EventHandler(this.AddEmployee_Click);
             // 
-            // textBox6
+            // txtEmail
             // 
-            this.textBox6.Location = new System.Drawing.Point(580, 47);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(346, 27);
-            this.textBox6.TabIndex = 16;
+            this.txtEmail.Location = new System.Drawing.Point(580, 47);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(346, 27);
+            this.txtEmail.TabIndex = 16;
             // 
-            // textBox5
+            // txtSDT
             // 
-            this.textBox5.Location = new System.Drawing.Point(580, 8);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(346, 27);
-            this.textBox5.TabIndex = 15;
+            this.txtSDT.Location = new System.Drawing.Point(580, 8);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(346, 27);
+            this.txtSDT.TabIndex = 15;
             // 
             // label8
             // 
@@ -748,56 +753,56 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "SĐT:";
             // 
-            // textBox4
+            // txtRole
             // 
-            this.textBox4.Location = new System.Drawing.Point(580, 84);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(346, 24);
-            this.textBox4.TabIndex = 12;
+            this.txtRole.Location = new System.Drawing.Point(580, 84);
+            this.txtRole.Multiline = true;
+            this.txtRole.Name = "txtRole";
+            this.txtRole.Size = new System.Drawing.Size(346, 24);
+            this.txtRole.TabIndex = 12;
             // 
-            // textBox3
+            // txtCCCD
             // 
-            this.textBox3.Location = new System.Drawing.Point(125, 81);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(309, 27);
-            this.textBox3.TabIndex = 11;
+            this.txtCCCD.Location = new System.Drawing.Point(125, 81);
+            this.txtCCCD.Name = "txtCCCD";
+            this.txtCCCD.Size = new System.Drawing.Size(309, 27);
+            this.txtCCCD.TabIndex = 11;
             // 
-            // textBox2
+            // txtNameNhanVien
             // 
-            this.textBox2.Location = new System.Drawing.Point(125, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(309, 27);
-            this.textBox2.TabIndex = 10;
+            this.txtNameNhanVien.Location = new System.Drawing.Point(125, 44);
+            this.txtNameNhanVien.Name = "txtNameNhanVien";
+            this.txtNameNhanVien.Size = new System.Drawing.Size(309, 27);
+            this.txtNameNhanVien.TabIndex = 10;
             // 
-            // textBox1
+            // txtIDNhanVien
             // 
-            this.textBox1.Location = new System.Drawing.Point(124, 8);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(310, 27);
-            this.textBox1.TabIndex = 9;
+            this.txtIDNhanVien.Location = new System.Drawing.Point(124, 8);
+            this.txtIDNhanVien.Name = "txtIDNhanVien";
+            this.txtIDNhanVien.Size = new System.Drawing.Size(310, 27);
+            this.txtIDNhanVien.TabIndex = 9;
             // 
-            // radioButton2
+            // rbFemale
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(220, 111);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(50, 24);
-            this.radioButton2.TabIndex = 8;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Nữ";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbFemale.AutoSize = true;
+            this.rbFemale.Location = new System.Drawing.Point(220, 111);
+            this.rbFemale.Name = "rbFemale";
+            this.rbFemale.Size = new System.Drawing.Size(50, 24);
+            this.rbFemale.TabIndex = 8;
+            this.rbFemale.TabStop = true;
+            this.rbFemale.Text = "Nữ";
+            this.rbFemale.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rbMale
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(125, 111);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(62, 24);
-            this.radioButton1.TabIndex = 7;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Nam";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbMale.AutoSize = true;
+            this.rbMale.Location = new System.Drawing.Point(125, 111);
+            this.rbMale.Name = "rbMale";
+            this.rbMale.Size = new System.Drawing.Size(62, 24);
+            this.rbMale.TabIndex = 7;
+            this.rbMale.TabStop = true;
+            this.rbMale.Text = "Nam";
+            this.rbMale.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker1
             // 
@@ -860,38 +865,38 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã nhân viên:";
             // 
-            // tabPage4
+            // pageCustomers
             // 
-            this.tabPage4.Controls.Add(this.dataKhachHang);
-            this.tabPage4.Controls.Add(this.textBox14);
-            this.tabPage4.Controls.Add(this.button15);
-            this.tabPage4.Controls.Add(this.label17);
-            this.tabPage4.Controls.Add(this.listBox1);
-            this.tabPage4.Controls.Add(this.textBox13);
-            this.tabPage4.Controls.Add(this.textBox12);
-            this.tabPage4.Controls.Add(this.label16);
-            this.tabPage4.Controls.Add(this.label15);
-            this.tabPage4.Controls.Add(this.button12);
-            this.tabPage4.Controls.Add(this.button13);
-            this.tabPage4.Controls.Add(this.button14);
-            this.tabPage4.Controls.Add(this.textBox9);
-            this.tabPage4.Controls.Add(this.textBox10);
-            this.tabPage4.Controls.Add(this.textBox11);
-            this.tabPage4.Controls.Add(this.radioButton3);
-            this.tabPage4.Controls.Add(this.radioButton4);
-            this.tabPage4.Controls.Add(this.dateTimePicker2);
-            this.tabPage4.Controls.Add(this.label10);
-            this.tabPage4.Controls.Add(this.label11);
-            this.tabPage4.Controls.Add(this.label12);
-            this.tabPage4.Controls.Add(this.label13);
-            this.tabPage4.Controls.Add(this.label14);
-            this.tabPage4.Location = new System.Drawing.Point(4, 29);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(921, 434);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Quản lí khách hàng";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.pageCustomers.Controls.Add(this.dataKhachHang);
+            this.pageCustomers.Controls.Add(this.textBox14);
+            this.pageCustomers.Controls.Add(this.button15);
+            this.pageCustomers.Controls.Add(this.label17);
+            this.pageCustomers.Controls.Add(this.listBox1);
+            this.pageCustomers.Controls.Add(this.textBox13);
+            this.pageCustomers.Controls.Add(this.textBox12);
+            this.pageCustomers.Controls.Add(this.label16);
+            this.pageCustomers.Controls.Add(this.label15);
+            this.pageCustomers.Controls.Add(this.button12);
+            this.pageCustomers.Controls.Add(this.button13);
+            this.pageCustomers.Controls.Add(this.button14);
+            this.pageCustomers.Controls.Add(this.textBox9);
+            this.pageCustomers.Controls.Add(this.textBox10);
+            this.pageCustomers.Controls.Add(this.textBox11);
+            this.pageCustomers.Controls.Add(this.radioButton3);
+            this.pageCustomers.Controls.Add(this.radioButton4);
+            this.pageCustomers.Controls.Add(this.dateTimePicker2);
+            this.pageCustomers.Controls.Add(this.label10);
+            this.pageCustomers.Controls.Add(this.label11);
+            this.pageCustomers.Controls.Add(this.label12);
+            this.pageCustomers.Controls.Add(this.label13);
+            this.pageCustomers.Controls.Add(this.label14);
+            this.pageCustomers.Location = new System.Drawing.Point(4, 29);
+            this.pageCustomers.Name = "pageCustomers";
+            this.pageCustomers.Padding = new System.Windows.Forms.Padding(3);
+            this.pageCustomers.Size = new System.Drawing.Size(921, 434);
+            this.pageCustomers.TabIndex = 3;
+            this.pageCustomers.Text = "Quản lí khách hàng";
+            this.pageCustomers.UseVisualStyleBackColor = true;
             // 
             // dataKhachHang
             // 
@@ -1103,35 +1108,35 @@
             this.label14.TabIndex = 20;
             this.label14.Text = "Mã khách hàng:";
             // 
-            // tabPage5
+            // pageFlight
             // 
-            this.tabPage5.Controls.Add(this.dataChuyenBay);
-            this.tabPage5.Controls.Add(this.textBox24);
-            this.tabPage5.Controls.Add(this.label27);
-            this.tabPage5.Controls.Add(this.textBox23);
-            this.tabPage5.Controls.Add(this.textBox22);
-            this.tabPage5.Controls.Add(this.textBox21);
-            this.tabPage5.Controls.Add(this.button20);
-            this.tabPage5.Controls.Add(this.button21);
-            this.tabPage5.Controls.Add(this.button22);
-            this.tabPage5.Controls.Add(this.button23);
-            this.tabPage5.Controls.Add(this.textBox20);
-            this.tabPage5.Controls.Add(this.dateTimePicker4);
-            this.tabPage5.Controls.Add(this.dateTimePicker3);
-            this.tabPage5.Controls.Add(this.textBox19);
-            this.tabPage5.Controls.Add(this.label26);
-            this.tabPage5.Controls.Add(this.label25);
-            this.tabPage5.Controls.Add(this.label24);
-            this.tabPage5.Controls.Add(this.label23);
-            this.tabPage5.Controls.Add(this.label22);
-            this.tabPage5.Controls.Add(this.label21);
-            this.tabPage5.Location = new System.Drawing.Point(4, 29);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(921, 434);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Quản lí chuyến bay";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.pageFlight.Controls.Add(this.dataChuyenBay);
+            this.pageFlight.Controls.Add(this.textBox24);
+            this.pageFlight.Controls.Add(this.label27);
+            this.pageFlight.Controls.Add(this.textBox23);
+            this.pageFlight.Controls.Add(this.textBox22);
+            this.pageFlight.Controls.Add(this.textBox21);
+            this.pageFlight.Controls.Add(this.button20);
+            this.pageFlight.Controls.Add(this.button21);
+            this.pageFlight.Controls.Add(this.button22);
+            this.pageFlight.Controls.Add(this.button23);
+            this.pageFlight.Controls.Add(this.textBox20);
+            this.pageFlight.Controls.Add(this.dateTimePicker4);
+            this.pageFlight.Controls.Add(this.dateTimePicker3);
+            this.pageFlight.Controls.Add(this.textBox19);
+            this.pageFlight.Controls.Add(this.label26);
+            this.pageFlight.Controls.Add(this.label25);
+            this.pageFlight.Controls.Add(this.label24);
+            this.pageFlight.Controls.Add(this.label23);
+            this.pageFlight.Controls.Add(this.label22);
+            this.pageFlight.Controls.Add(this.label21);
+            this.pageFlight.Location = new System.Drawing.Point(4, 29);
+            this.pageFlight.Name = "pageFlight";
+            this.pageFlight.Padding = new System.Windows.Forms.Padding(3);
+            this.pageFlight.Size = new System.Drawing.Size(921, 434);
+            this.pageFlight.TabIndex = 4;
+            this.pageFlight.Text = "Quản lí chuyến bay";
+            this.pageFlight.UseVisualStyleBackColor = true;
             // 
             // dataChuyenBay
             // 
@@ -1301,23 +1306,23 @@
             this.label21.TabIndex = 0;
             this.label21.Text = "Mã chuyến bay:";
             // 
-            // tabPage6
+            // pageReport
             // 
-            this.tabPage6.Controls.Add(this.button29);
-            this.tabPage6.Controls.Add(this.groupBox2);
-            this.tabPage6.Controls.Add(this.label30);
-            this.tabPage6.Controls.Add(this.button28);
-            this.tabPage6.Controls.Add(this.button27);
-            this.tabPage6.Controls.Add(this.button26);
-            this.tabPage6.Controls.Add(this.button25);
-            this.tabPage6.Controls.Add(this.label29);
-            this.tabPage6.Location = new System.Drawing.Point(4, 29);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(921, 434);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Báo cáo thống kê";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.pageReport.Controls.Add(this.button29);
+            this.pageReport.Controls.Add(this.groupBox2);
+            this.pageReport.Controls.Add(this.label30);
+            this.pageReport.Controls.Add(this.button28);
+            this.pageReport.Controls.Add(this.button27);
+            this.pageReport.Controls.Add(this.button26);
+            this.pageReport.Controls.Add(this.button25);
+            this.pageReport.Controls.Add(this.label29);
+            this.pageReport.Location = new System.Drawing.Point(4, 29);
+            this.pageReport.Name = "pageReport";
+            this.pageReport.Padding = new System.Windows.Forms.Padding(3);
+            this.pageReport.Size = new System.Drawing.Size(921, 434);
+            this.pageReport.TabIndex = 5;
+            this.pageReport.Text = "Báo cáo thống kê";
+            this.pageReport.UseVisualStyleBackColor = true;
             // 
             // button29
             // 
@@ -1442,14 +1447,14 @@
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.groupBox1.Controls.Add(this.button24);
-            this.groupBox1.Controls.Add(this.button7);
+            this.groupBox1.Controls.Add(this.btnReport);
+            this.groupBox1.Controls.Add(this.btnCloseSystem);
             this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnEmployess);
+            this.groupBox1.Controls.Add(this.btnPlane);
+            this.groupBox1.Controls.Add(this.btnCustomers);
+            this.groupBox1.Controls.Add(this.btnTicket);
+            this.groupBox1.Controls.Add(this.btnFlight);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(2, 15);
             this.groupBox1.Name = "groupBox1";
@@ -1458,25 +1463,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
             // 
-            // button24
+            // btnReport
             // 
-            this.button24.BackColor = System.Drawing.Color.Transparent;
-            this.button24.Location = new System.Drawing.Point(20, 390);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(206, 54);
-            this.button24.TabIndex = 7;
-            this.button24.Text = "Báo Cáo Thống Kê";
-            this.button24.UseVisualStyleBackColor = false;
+            this.btnReport.BackColor = System.Drawing.Color.Transparent;
+            this.btnReport.Location = new System.Drawing.Point(20, 390);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(206, 54);
+            this.btnReport.TabIndex = 7;
+            this.btnReport.Text = "Báo Cáo Thống Kê";
+            this.btnReport.UseVisualStyleBackColor = false;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
-            // button7
+            // btnCloseSystem
             // 
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.Location = new System.Drawing.Point(20, 591);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(206, 61);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Thoát";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnCloseSystem.BackColor = System.Drawing.Color.Transparent;
+            this.btnCloseSystem.Location = new System.Drawing.Point(20, 591);
+            this.btnCloseSystem.Name = "btnCloseSystem";
+            this.btnCloseSystem.Size = new System.Drawing.Size(206, 61);
+            this.btnCloseSystem.TabIndex = 6;
+            this.btnCloseSystem.Text = "Thoát";
+            this.btnCloseSystem.UseVisualStyleBackColor = false;
+            this.btnCloseSystem.Click += new System.EventHandler(this.btnCloseSystem_Click);
             // 
             // button6
             // 
@@ -1488,90 +1495,108 @@
             this.button6.Text = "Đăng xuất";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnEmployess
             // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(20, 320);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(206, 54);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Nhân Viên";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnEmployess.BackColor = System.Drawing.Color.Transparent;
+            this.btnEmployess.Location = new System.Drawing.Point(20, 320);
+            this.btnEmployess.Name = "btnEmployess";
+            this.btnEmployess.Size = new System.Drawing.Size(206, 54);
+            this.btnEmployess.TabIndex = 4;
+            this.btnEmployess.Text = "Nhân Viên";
+            this.btnEmployess.UseVisualStyleBackColor = false;
+            this.btnEmployess.Click += new System.EventHandler(this.btnEmployess_Click);
             // 
-            // button4
+            // btnPlane
             // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.Location = new System.Drawing.Point(20, 247);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(206, 54);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Máy Bay";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnPlane.BackColor = System.Drawing.Color.Transparent;
+            this.btnPlane.Location = new System.Drawing.Point(20, 247);
+            this.btnPlane.Name = "btnPlane";
+            this.btnPlane.Size = new System.Drawing.Size(206, 54);
+            this.btnPlane.TabIndex = 3;
+            this.btnPlane.Text = "Máy Bay";
+            this.btnPlane.UseVisualStyleBackColor = false;
+            this.btnPlane.Click += new System.EventHandler(this.btnPlane_Click);
             // 
-            // button3
+            // btnCustomers
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(20, 177);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(206, 54);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Quản Lí Lịch Bay";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnCustomers.BackColor = System.Drawing.Color.Transparent;
+            this.btnCustomers.Location = new System.Drawing.Point(20, 177);
+            this.btnCustomers.Name = "btnCustomers";
+            this.btnCustomers.Size = new System.Drawing.Size(206, 54);
+            this.btnCustomers.TabIndex = 2;
+            this.btnCustomers.Text = "Quản Lí Khách Hàng";
+            this.btnCustomers.UseVisualStyleBackColor = false;
+            this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
             // 
-            // button2
+            // btnTicket
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(20, 106);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(206, 54);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Vé";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnTicket.BackColor = System.Drawing.Color.Transparent;
+            this.btnTicket.Location = new System.Drawing.Point(20, 106);
+            this.btnTicket.Name = "btnTicket";
+            this.btnTicket.Size = new System.Drawing.Size(206, 54);
+            this.btnTicket.TabIndex = 1;
+            this.btnTicket.Text = "Vé";
+            this.btnTicket.UseVisualStyleBackColor = false;
+            this.btnTicket.Click += new System.EventHandler(this.btnTicket_Click);
             // 
-            // button1
+            // btnFlight
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(20, 36);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(206, 54);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Lịch Bay";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnFlight.BackColor = System.Drawing.Color.Transparent;
+            this.btnFlight.Location = new System.Drawing.Point(20, 36);
+            this.btnFlight.Name = "btnFlight";
+            this.btnFlight.Size = new System.Drawing.Size(206, 54);
+            this.btnFlight.TabIndex = 0;
+            this.btnFlight.Text = "Lịch Bay";
+            this.btnFlight.UseVisualStyleBackColor = false;
+            this.btnFlight.Click += new System.EventHandler(this.btnFlight_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::GUI.Properties.Resources.plan_book_4;
+            this.pictureBox2.Location = new System.Drawing.Point(258, 28);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(925, 196);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
             // 
             // HeThong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1196, 697);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.tabNhanVien);
+            this.Controls.Add(this.tabControl);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "HeThong";
             this.Text = "HeThong";
+            this.Load += new System.EventHandler(this.HeThong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabNhanVien.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.tabControl.ResumeLayout(false);
+            this.pageTickets.ResumeLayout(false);
+            this.pageTickets.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
+            this.pagePlane.ResumeLayout(false);
+            this.pagePlane.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataMaybay)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            this.pageEmployess.ResumeLayout(false);
+            this.pageEmployess.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataNhanVien)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            this.pageCustomers.ResumeLayout(false);
+            this.pageCustomers.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataKhachHang)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
+            this.pageFlight.ResumeLayout(false);
+            this.pageFlight.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataChuyenBay)).EndInit();
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
+            this.pageReport.ResumeLayout(false);
+            this.pageReport.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1579,44 +1604,44 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private TabControl tabNhanVien;
-        private TabPage tabPage1;
-        private TabPage tabPage2;
-        private TabPage tabPage3;
+        private TabControl tabControl;
+        private TabPage pageTickets;
+        private TabPage pagePlane;
+        private TabPage pageEmployess;
         private Label label3;
         private Label label2;
         private Label label1;
         private DataGridView dataTickets;
         private GroupBox groupBox1;
-        private Button button7;
+        private Button btnCloseSystem;
         private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btnEmployess;
+        private Button btnPlane;
+        private Button btnCustomers;
+        private Button btnTicket;
+        private Button btnFlight;
         private Button button11;
-        private Button button10;
-        private Button button9;
-        private Button button8;
-        private TextBox textBox6;
-        private TextBox textBox5;
+        private Button btnClearEmployee;
+        private Button btnUpdateEmployee;
+        private Button btnAddEmployee;
+        private TextBox txtEmail;
+        private TextBox txtSDT;
         private Label label8;
         private Label label7;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
+        private TextBox txtRole;
+        private TextBox txtCCCD;
+        private TextBox txtNameNhanVien;
+        private TextBox txtIDNhanVien;
+        private RadioButton rbFemale;
+        private RadioButton rbMale;
         private DateTimePicker dateTimePicker1;
         private Label label6;
         private Label label5;
         private Label label4;
         private TextBox textBox7;
-        private TextBox textBox8;
+        private TextBox txtAddress;
         private Label label9;
-        private TabPage tabPage4;
+        private TabPage pageCustomers;
         private Label label17;
         private ListBox listBox1;
         private TextBox textBox13;
@@ -1650,7 +1675,7 @@
         private Button button18;
         private Button button19;
         private TextBox textBox17;
-        private TabPage tabPage5;
+        private TabPage pageFlight;
         private Label label23;
         private Label label22;
         private Label label21;
@@ -1672,7 +1697,7 @@
         private Label label28;
         private DateTimePicker dateTimePicker4;
         private DateTimePicker dateTimePicker3;
-        private TabPage tabPage6;
+        private TabPage pageReport;
         private Button button29;
         private GroupBox groupBox2;
         private DateTimePicker dateTimePicker6;
@@ -1685,7 +1710,7 @@
         private Button button26;
         private Button button25;
         private Label label29;
-        private Button button24;
+        private Button btnReport;
         private Button button30;
         private TextBox textBox34;
         private Button button31;
@@ -1716,5 +1741,6 @@
         private DataGridView dataNhanVien;
         private DataGridView dataKhachHang;
         private DataGridView dataChuyenBay;
+        private PictureBox pictureBox2;
     }
 }
