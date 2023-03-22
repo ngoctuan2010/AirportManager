@@ -10,3 +10,13 @@ C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\
 C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\BLL\bin\Debug\EntityFramework.xml
 C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\BLL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Code\AirportManager\QLChuyenBay\BLL\obj\Debug\BLL.dll
+D:\Code\AirportManager\QLChuyenBay\BLL\obj\Debug\BLL.pdb
+D:\Code\AirportManager\QLChuyenBay\BLL\bin\Debug\BLL.dll.config
+D:\Code\AirportManager\QLChuyenBay\BLL\bin\Debug\BLL.dll
+D:\Code\AirportManager\QLChuyenBay\BLL\bin\Debug\BLL.pdb
+D:\Code\AirportManager\QLChuyenBay\BLL\bin\Debug\EntityFramework.xml
+D:\Code\AirportManager\QLChuyenBay\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\AirportManager\QLChuyenBay\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Code\AirportManager\QLChuyenBay\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Code\AirportManager\QLChuyenBay\BLL\obj\Debug\BLL.csproj.CopyComplete
