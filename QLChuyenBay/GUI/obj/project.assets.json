@@ -1109,23 +1109,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pthin\\.nuget\\packages\\": {},
-    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\bthta\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "D:\\Code\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj",
-      "packagesPath": "C:\\Users\\pthin\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\AirportManager\\QLChuyenBay\\GUI\\obj\\",
+      "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\GUI.csproj",
+      "packagesPath": "C:\\Users\\bthta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pthin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bthta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1134,17 +1134,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\Code\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj": {
-              "projectPath": "D:\\Code\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj"
+            "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\BLL\\BLL.csproj"
             },
-            "D:\\Code\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj": {
-              "projectPath": "D:\\Code\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj"
+            "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\bthta\\OneDrive\\Desktop\\LTCSDL\\AirportManage\\AirportManager\\QLChuyenBay\\DAO\\DAO.csproj"
             }
           }
         }
@@ -1183,7 +1184,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

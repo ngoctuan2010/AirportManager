@@ -10,13 +10,3 @@ C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\
 C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\DAO\obj\Debug\DAO.dll
 C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\DAO\obj\Debug\DAO.pdb
 C:\Users\bthta\OneDrive\Desktop\LTCSDL\AirportManage\AirportManager\QLChuyenBay\DAO\bin\Debug\DAO.dll.config
-D:\Code\AirportManager\QLChuyenBay\DAO\obj\Debug\DAO.dll
-D:\Code\AirportManager\QLChuyenBay\DAO\obj\Debug\DAO.pdb
-D:\Code\AirportManager\QLChuyenBay\DAO\bin\Debug\DAO.dll.config
-D:\Code\AirportManager\QLChuyenBay\DAO\bin\Debug\DAO.dll
-D:\Code\AirportManager\QLChuyenBay\DAO\bin\Debug\DAO.pdb
-D:\Code\AirportManager\QLChuyenBay\DAO\bin\Debug\EntityFramework.xml
-D:\Code\AirportManager\QLChuyenBay\DAO\bin\Debug\EntityFramework.SqlServer.xml
-D:\Code\AirportManager\QLChuyenBay\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
-D:\Code\AirportManager\QLChuyenBay\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
-D:\Code\AirportManager\QLChuyenBay\DAO\obj\Debug\DAO.csproj.CopyComplete
