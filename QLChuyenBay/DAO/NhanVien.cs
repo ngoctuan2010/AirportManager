@@ -2,6 +2,7 @@ namespace DAO
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
@@ -34,6 +35,8 @@ namespace DAO
         public string ChucVu { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        
+        [Browsable(false)]
         public virtual ICollection<CongViec> CongViecs { get; set; }
     }
 }

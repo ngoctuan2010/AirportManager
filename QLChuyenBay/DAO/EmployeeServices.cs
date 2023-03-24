@@ -13,22 +13,25 @@ namespace DAO
             List<NhanVien> list = new List<NhanVien>();
             using (var db = new AirportManage())
             {
-                var sql = from emps in db.NhanViens
-                          select emps;
-                foreach(var emp in sql)
-                {
-                    NhanVien i = new NhanVien();
-                    i.IDNhanVien = emp.IDNhanVien;
-                    i.HoTen = emp.HoTen;
-                    i.SDT = emp.SDT;
-                    i.Email =emp.Email;
-                    i.DiaChi= emp.DiaChi; 
-                    i.ChucVu = emp.ChucVu;
-                    i.CongViecs = (ICollection<CongViec>)emp.CongViecs.FirstOrDefault();
-                    list.Add(i);
-                }
+                list = db.NhanViens.ToList();
             }
             return list;
         }
+        
+       
+        public void AddEmployess()
+        {
+      
+        }
+
+        public void UpdateEmployess()
+        {
+           
+        }
+        public void DeleteEmployess()
+        {
+
+        }
+      
     }
 }
