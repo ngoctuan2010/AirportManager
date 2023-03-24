@@ -22,7 +22,7 @@ namespace QuảnLíChuyếnBay
 
         private void HeThong_Load(object sender, EventArgs e)
         {
-      
+
         }
 
         private void tabControll_Click(object sender, EventArgs e)
@@ -51,8 +51,8 @@ namespace QuảnLíChuyếnBay
 
         /*EMPLOYEES CONTROLLER*/
         private void AddEmployee_Click(object sender, EventArgs e)
-        {   
-            
+        {
+
         }
 
         private void btnUpdateEmployee_Click(object sender, EventArgs e)
@@ -65,20 +65,20 @@ namespace QuảnLíChuyếnBay
 
         }
         private void btnEmployess_Click(object sender, EventArgs e)
-        {   
+        {
             /*Open PageEmployees*/
             tabControl.SelectTab(pageEmployess);
             /*Load Employees Data*/
-            List<NhanVien> list = new List<NhanVien>();
+            List<Employee> list = new List<Employee>();
             dataNhanVien.DataSource = EmployeeServices.LoadEmployees();
         }
-       
+
 
         /*FLIGHT CONTROLLER*/
         private void btnFlight_Click(object sender, EventArgs e)
         {
             tabControl.SelectTab(pageFlight);
-           
+            dataFlight.DataSource = FlightServices.LoadFlight();
         }
 
         private void btnTicket_Click(object sender, EventArgs e)
@@ -106,6 +106,39 @@ namespace QuảnLíChuyếnBay
             Close();
         }
 
-     
+        private void btn_AddFlight_Click(object? sender, EventArgs e)
+        {
+            var flightId = int.Parse(textFlightID.Text);
+            var planeId = int.Parse(textFLight_PlaneID.Text);
+            var departure = textDepart.Text;
+            var dateDeparture = dateTimeOfDepart.Value;
+            var destination = textDesti.Text;
+            var dateDestination = dateTimeOfDesti.Value;
+            var airline = textAirline.Text;
+
+            FlightServices.AddFlight(flightId, planeId, departure, dateDeparture, destination, dateDestination,
+                airline);
+            dataFlight.DataSource = FlightServices.LoadFlight();
+        }
+
+        private void btn_DelFlight_Click(object sender, EventArgs e)
+        {
+            var flightId = int.Parse(textFlightID.Text);
+            FlightServices.DeleteFlight(flightId);
+        }
+
+        private void dataFlight_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var row = this.dataFlight.Rows[e.RowIndex];
+            textFlightID.Text = row.Cells[0].Value.ToString();
+            textFLight_PlaneID.Text = row.Cells[1].Value.ToString();
+            textDepart.Text = row.Cells[2].Value.ToString();
+            dateTimeOfDepart.Text = row.Cells[3].Value.ToString();
+            textDesti.Text = row.Cells[4].Value.ToString();
+            dateTimeOfDesti.Text = row.Cells[5].Value.ToString();
+            textAirline.Text = row.Cells[6].Value.ToString();
+        }
+
+        
     }
 }
