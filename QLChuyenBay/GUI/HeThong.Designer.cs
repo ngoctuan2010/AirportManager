@@ -1446,7 +1446,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Controls.Add(this.btnReport);
             this.groupBox1.Controls.Add(this.btnCloseSystem);
             this.groupBox1.Controls.Add(this.button6);
@@ -1456,12 +1456,13 @@
             this.groupBox1.Controls.Add(this.btnTicket);
             this.groupBox1.Controls.Add(this.btnFlight);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(2, 15);
+            this.groupBox1.Location = new System.Drawing.Point(0, 17);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(250, 679);
+            this.groupBox1.Size = new System.Drawing.Size(258, 673);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnReport
             // 
@@ -1565,8 +1566,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1196, 697);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;

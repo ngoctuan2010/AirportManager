@@ -53,21 +53,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirportManage.cs" />
-    <Compile Include="ChuyenBay.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="CongViec.cs" />
+    <Compile Include="Account.cs">
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AirportManager.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirportManager.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AirportManager.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AirportManager.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirportManager.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_Detail.cs">
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeServices.cs" />
-    <Compile Include="HoaDon.cs" />
-    <Compile Include="KhachHang.cs" />
-    <Compile Include="MayBay.cs" />
-    <Compile Include="NhanVien.cs" />
+    <Compile Include="Flight.cs">
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Job.cs">
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Plane.cs">
+      <DependentUpon>AirportManager.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sysdiagram.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EntityDeploy Include="AirportManager.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AirportManager.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AirportManager.edmx.diagram">
+      <DependentUpon>AirportManager.edmx</DependentUpon>
+    </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AirportManager.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AirportManager.edmx</DependentUpon>
+      <LastGenOutput>AirportManager.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AirportManager.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AirportManager.edmx</DependentUpon>
+      <LastGenOutput>AirportManager.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

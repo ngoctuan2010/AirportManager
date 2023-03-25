@@ -8,12 +8,12 @@ namespace DAO
 {
     public class EmployeeServices
     {
-        public static List<NhanVien> LoadEmployees()
+        public static List<Employee> LoadEmployees()
         {
-            List<NhanVien> list = new List<NhanVien>();
-            using (var db = new AirportManage())
+            List<Employee> list = new List<Employee>();
+            using (var db = new AirportManagerEntities())
             {
-                list = db.NhanViens.ToList();
+                list = db.Employees.ToList();
             }
             return list;
         }

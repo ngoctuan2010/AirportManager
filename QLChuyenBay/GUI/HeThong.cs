@@ -69,7 +69,7 @@ namespace QuảnLíChuyếnBay
             /*Open PageEmployees*/
             tabControl.SelectTab(pageEmployess);
             /*Load Employees Data*/
-            List<NhanVien> list = new List<NhanVien>();
+            List<Employee> list = new List<Employee>();
             dataNhanVien.DataSource = EmployeeServices.LoadEmployees();
         }
        
@@ -106,6 +106,9 @@ namespace QuảnLíChuyếnBay
             Close();
         }
 
-     
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
